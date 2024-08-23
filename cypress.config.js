@@ -21,11 +21,11 @@ module.exports = defineConfig({
 
       // Atualiza o specPattern para reconhecer arquivos .feature e .cy
       config.specPattern = [
-        "cypress/integration/features/**/*.feature",
-        "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
-        "cypress/integration/**/*.js",
-        "cypress/e2e/path-to-step-definition/**/*.{js,ts}",
-        "cypress/e2e/features/**/*.feature",
+        "CypressProjects/integration/features/**/*.feature",
+        "CypressProjects/e2e/**/*.cy.{js,jsx,ts,tsx}",
+        "CypressProjects/integration/**/*.js",
+        "CypressProjects/e2e/path-to-step-definition/**/*.{js,ts}",
+        "CypressProjects/e2e/features/**/*.feature",
       ];
 
       // Tarefa para adicionar timestamp à captura de tela
